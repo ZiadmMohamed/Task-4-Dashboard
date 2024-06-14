@@ -1,0 +1,202 @@
+/* start box */
+.d-flex {
+    display: flex;
+}
+
+.d-block {
+    display: block;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:767px) {
+    .block-mobile {
+        display: block;
+
+    }
+}
+
+/* end box */
+/* start padding + margin */
+.p-10 {
+    padding: 10px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.rad-6 {
+    border-radius: 6px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+/* end padding + margin + border */
+/* start color */
+.c-black {
+    color: black;
+}
+.c-white {
+    color: white;
+}
+
+.c-grey {
+    color: #978888;
+}
+
+.c-dyellow {
+    color: #ffa200;
+}
+
+.c-dblue {
+    color: #0073ff;
+}
+
+.c-dgreen {
+    color: #00e959;
+}
+
+.c-red {
+    color: red;
+}
+
+.c-orange {
+    color: #f59e0b;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-yellow {
+    background-color: #FDECCE;
+}
+
+.bg-blue {
+    background-color: #CCE3FF;
+}
+
+.bg-green {
+    background-color: #D3F3DF;
+}
+
+.bg-dyellow {
+    background-color: #ffa200;
+}
+
+.bg-dblue {
+    background-color: #0073ff;
+}
+
+.bg-dgreen {
+    background-color: #00e959;
+}
+
+.bg-red {
+    background-color: #F44336;
+}
+
+.bg-lred {
+    background-color: #FFCCCC;
+}
+
+
+
+/* end color */
+/* start position */
+.p-relative {
+    position: relative;
+}
+
+/* end position */
+
+/* start fonts */
+.fs-14 {
+    font-size: 14px;
+}
+
+.text-c {
+    text-align: center;
+}
+
+@media (max-width : 767px) {
+    .text-c-mobile {
+        text-align: center;
+    }
+}
+
+/* end fonts */
+
+.rad-6 {
+    border-radius: 6px;
+}
+
+/* start  component */
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+.bottom {
+    display: block;
+    background-color: var(--blue-color);
+    padding: 4px 10px;
+    width: fit-content;
+    border-radius: 6px;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+.m-h2 {
+    margin: 0 0 10px;
+}
+
+.m-p {
+    margin: 0 0 20px;
+    color: #888;
+}
+
+/* end  component */
