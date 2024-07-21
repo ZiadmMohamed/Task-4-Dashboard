@@ -1,441 +1,476 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/framework.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Friends</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="page d-flex">
+      <div class="sidebar bg-white p-20 p-relative">
+        <h3 class="text-c mt-0 p-relative">Elzezo</h3>
+        <ul>
+          <li>
+            <a
+              class="p-relative rad-6 fs-14 d-flex align-center c-black p-10"
+              href="index.html"
+            >
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="p-relative rad-6 fs-14 d-flex align-center c-black p-10"
+              href="settings.html"
+            >
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="p-relative rad-6 fs-14 d-flex align-center c-black p-10"
+              href="profile.html"
+            >
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="p-relative rad-6 fs-14 d-flex align-center c-black p-10"
+              href="projects.html"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="p-relative rad-6 fs-14 d-flex align-center c-black p-10"
+              href="courses.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="p-relative rad-6 fs-14 d-flex align-center c-black p-10"
+              href="friends.html"
+            >
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="p-relative rad-6 fs-14 d-flex align-center c-black p-10 active"
+              href="files.html"
+            >
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="p-relative rad-6 fs-14 d-flex align-center c-black p-10"
+              href="plans.html"
+            >
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
 
-        <div class="sidebar bg-white p-20 p-relative">
-            <h3 class="text-c mt-0 p-relative">Elzezo</h3>
-            <ul>
-                <li>
-                    <a class=" p-relative rad-6 fs-14 d-flex align-center c-black p-10 " href="index.html">
-                        <i class="fa-regular fa-chart-bar fa-fw"></i>
-                        <span>Dashboard</span>
-                    </a>
-                </li>
-                <li>
-                    <a class=" p-relative rad-6 fs-14 d-flex  align-center c-black p-10 " href="settings.html">
-                        <i class="fa-solid fa-gear fa-fw"></i>
-                        <span>Settings</span>
-                    </a>
-                </li>
-                <li>
-                    <a class=" p-relative rad-6 fs-14 d-flex align-center c-black p-10 " href="profile.html">
-                        <i class="fa-regular fa-user fa-fw"></i>
-                        <span>Profile</span>
-                    </a>
-                </li>
-                <li>
-                    <a class=" p-relative rad-6 fs-14 d-flex align-center c-black p-10 " href="projects.html">
-                        <i class="fa-solid fa-diagram-project fa-fw"></i>
-                        <span>Projects</span>
-                    </a>
-                </li>
-                <li>
-                    <a class=" p-relative rad-6 fs-14 d-flex align-center c-black p-10 " href="courses.html">
-                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
-                        <span>Courses</span>
-                    </a>
-                </li>
-                <li>
-                    <a class=" p-relative rad-6 fs-14 d-flex align-center c-black p-10 " href="friends.html">
-                        <i class="fa-regular fa-circle-user fa-fw"></i>
-                        <span>friends</span>
-                    </a>
-                </li>
-                <li>
-                    <a class=" p-relative rad-6 fs-14 d-flex align-center c-black p-10 active" href="files.html">
-                        <i class="fa-regular fa-file fa-fw"></i>
-                        <span>Files</span>
-                    </a>
-                </li>
-                <li>
-                    <a class=" p-relative rad-6 fs-14 d-flex align-center c-black p-10 " href="plans.html">
-                        <i class="fa-regular fa-credit-card fa-fw"></i>
-                        <span>Plans</span>
-                    </a>
-                </li>
-            </ul>
+      <div class="content w-full">
+        <!-- start head -->
+        <div class="head flex-between bg-white p-15">
+          <div class="search p-relative">
+            <input
+              class="p-10 rad-6"
+              type="search"
+              placeholder="Type A Keyword"
+            />
+          </div>
+          <div class="icons d-flex align-center">
+            <span class="notification p-relative">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img src="images/avatar.png" alt="" />
+          </div>
         </div>
+        <!-- end head -->
 
-        <div class="content w-full">
+        <h1 class="p-relative m-20">Files</h1>
 
-            <!-- start head -->
-            <div class="head flex-between bg-white p-15 ">
-                <div class="search p-relative">
-                    <input class="p-10 rad-6" type="search" placeholder="Type A Keyword">
+        <!-- start content -->
+        <div class="files-page">
+          <div class="files">
+            <div class="file bg-white">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="first">
+                <img src="images/pdf.png" alt="" />
+                <p>my-file.pdf</p>
+              </div>
+              <span>Elzezo</span>
+              <div class="info flex-between">
+                <div>
+                  <span>20/06/2020</span>
                 </div>
-                <div class="icons d-flex align-center">
-                    <span class="notification p-relative">
-                        <i class="fa-regular fa-bell fa-lg"></i>
-                    </span>
-                    <img src="images/avatar.png" alt="">
+                <div>
+                  <span>5.5MB</span>
                 </div>
+              </div>
             </div>
-            <!-- end head -->
-            
-            <h1 class="p-relative m-20">Files</h1>
-
-                <!-- start content -->
-            <div class="files-page">
-
-                <div class="files">
-                    <div class="file bg-white"> 
-                        <i class="fa-solid fa-download c-grey p-absolute"></i>
-                        <div class="first">
-                            <img src="images/pdf.png" alt="">
-                            <p>my-file.pdf</p>
-                        </div>
-                        <span>Elzezo</span>
-                        <div class="info flex-between">
-                            <div > 
-                                <span>20/06/2020</span>
-                            </div>
-                            <div>
-                                <span>5.5MB</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="file bg-white"> 
-                        <i class="fa-solid fa-download c-grey p-absolute"></i>
-                        <div class="first">
-                            <img src="images/avi.png" alt="">
-                            <p>my-file.pdf</p>
-                        </div>
-                        <span>Elzezo</span>
-                        <div class="info flex-between">
-                            <div > 
-                                <span>20/06/2020</span>
-                            </div>
-                            <div>
-                                <span>5.5MB</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="file bg-white"> 
-                        <i class="fa-solid fa-download c-grey p-absolute"></i>
-                        <div class="first">
-                            <img src="images/eps.png" alt="">
-                            <p>my-file.pdf</p>
-                        </div>
-                        <span>Elzezo</span>
-                        <div class="info flex-between">
-                            <div > 
-                                <span>20/06/2020</span>
-                            </div>
-                            <div>
-                                <span>5.5MB</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="file bg-white"> 
-                        <i class="fa-solid fa-download c-grey p-absolute"></i>
-                        <div class="first">
-                            <img src="images/psd.png" alt="">
-                            <p>my-file.pdf</p>
-                        </div>
-                        <span>Elzezo</span>
-                        <div class="info flex-between">
-                            <div > 
-                                <span>20/06/2020</span>
-                            </div>
-                            <div>
-                                <span>5.5MB</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="file bg-white"> 
-                        <i class="fa-solid fa-download c-grey p-absolute"></i>
-                        <div class="first">
-                            <img src="images/dll.png" alt="">
-                            <p>my-file.pdf</p>
-                        </div>
-                        <span>Elzezo</span>
-                        <div class="info flex-between">
-                            <div > 
-                                <span>20/06/2020</span>
-                            </div>
-                            <div>
-                                <span>5.5MB</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="file bg-white"> 
-                        <i class="fa-solid fa-download c-grey p-absolute"></i>
-                        <div class="first">
-                            <img src="images/pdf.png" alt="">
-                            <p>my-file.pdf</p>
-                        </div>
-                        <span>Elzezo</span>
-                        <div class="info flex-between">
-                            <div > 
-                                <span>20/06/2020</span>
-                            </div>
-                            <div>
-                                <span>5.5MB</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="file bg-white"> 
-                        <i class="fa-solid fa-download c-grey p-absolute"></i>
-                        <div class="first">
-                            <img src="images/avi.png" alt="">
-                            <p>my-file.pdf</p>
-                        </div>
-                        <span>Elzezo</span>
-                        <div class="info flex-between">
-                            <div > 
-                                <span>20/06/2020</span>
-                            </div>
-                            <div>
-                                <span>5.5MB</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="file bg-white"> 
-                        <i class="fa-solid fa-download c-grey p-absolute"></i>
-                        <div class="first">
-                            <img src="images/eps.png" alt="">
-                            <p>my-file.pdf</p>
-                        </div>
-                        <span>Elzezo</span>
-                        <div class="info flex-between">
-                            <div > 
-                                <span>20/06/2020</span>
-                            </div>
-                            <div>
-                                <span>5.5MB</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="file bg-white"> 
-                        <i class="fa-solid fa-download c-grey p-absolute"></i>
-                        <div class="first">
-                            <img src="images/psd.png" alt="">
-                            <p>my-file.pdf</p>
-                        </div>
-                        <span>Elzezo</span>
-                        <div class="info flex-between">
-                            <div > 
-                                <span>20/06/2020</span>
-                            </div>
-                            <div>
-                                <span>5.5MB</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="file bg-white"> 
-                        <i class="fa-solid fa-download c-grey p-absolute"></i>
-                        <div class="first">
-                            <img src="images/dll.png" alt="">
-                            <p>my-file.pdf</p>
-                        </div>
-                        <span>Elzezo</span>
-                        <div class="info flex-between">
-                            <div > 
-                                <span>20/06/2020</span>
-                            </div>
-                            <div>
-                                <span>5.5MB</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="file bg-white"> 
-                        <i class="fa-solid fa-download c-grey p-absolute"></i>
-                        <div class="first">
-                            <img src="images/pdf.png" alt="">
-                            <p>my-file.pdf</p>
-                        </div>
-                        <span>Elzezo</span>
-                        <div class="info flex-between">
-                            <div > 
-                                <span>20/06/2020</span>
-                            </div>
-                            <div>
-                                <span>5.5MB</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="file bg-white"> 
-                        <i class="fa-solid fa-download c-grey p-absolute"></i>
-                        <div class="first">
-                            <img src="images/avi.png" alt="">
-                            <p>my-file.pdf</p>
-                        </div>
-                        <span>Elzezo</span>
-                        <div class="info flex-between">
-                            <div > 
-                                <span>20/06/2020</span>
-                            </div>
-                            <div>
-                                <span>5.5MB</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="file bg-white"> 
-                        <i class="fa-solid fa-download c-grey p-absolute"></i>
-                        <div class="first">
-                            <img src="images/eps.png" alt="">
-                            <p>my-file.pdf</p>
-                        </div>
-                        <span>Elzezo</span>
-                        <div class="info flex-between">
-                            <div > 
-                                <span>20/06/2020</span>
-                            </div>
-                            <div>
-                                <span>5.5MB</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="file bg-white"> 
-                        <i class="fa-solid fa-download c-grey p-absolute"></i>
-                        <div class="first">
-                            <img src="images/psd.png" alt="">
-                            <p>my-file.pdf</p>
-                        </div>
-                        <span>Elzezo</span>
-                        <div class="info flex-between">
-                            <div > 
-                                <span>20/06/2020</span>
-                            </div>
-                            <div>
-                                <span>5.5MB</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="file bg-white"> 
-                        <i class="fa-solid fa-download c-grey p-absolute"></i>
-                        <div class="first">
-                            <img src="images/dll.png" alt="">
-                            <p>my-file.pdf</p>
-                        </div>
-                        <span>Elzezo</span>
-                        <div class="info flex-between">
-                            <div > 
-                                <span>20/06/2020</span>
-                            </div>
-                            <div>
-                                <span>5.5MB</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="file bg-white"> 
-                        <i class="fa-solid fa-download c-grey p-absolute"></i>
-                        <div class="first">
-                            <img src="images/pdf.png" alt="">
-                            <p>my-file.pdf</p>
-                        </div>
-                        <span>Elzezo</span>
-                        <div class="info flex-between">
-                            <div > 
-                                <span>20/06/2020</span>
-                            </div>
-                            <div>
-                                <span>5.5MB</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="file bg-white"> 
-                        <i class="fa-solid fa-download c-grey p-absolute"></i>
-                        <div class="first">
-                            <img src="images/pdf.png" alt="">
-                            <p>my-file.pdf</p>
-                        </div>
-                        <span>Elzezo</span>
-                        <div class="info flex-between">
-                            <div > 
-                                <span>20/06/2020</span>
-                            </div>
-                            <div>
-                                <span>5.5MB</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="file bg-white"> 
-                        <i class="fa-solid fa-download c-grey p-absolute"></i>
-                        <div class="first">
-                            <img src="images/avi.png" alt="">
-                            <p>my-file.pdf</p>
-                        </div>
-                        <span>Elzezo</span>
-                        <div class="info flex-between">
-                            <div > 
-                                <span>20/06/2020</span>
-                            </div>
-                            <div>
-                                <span>5.5MB</span>
-                            </div>
-                        </div>
-                    </div>
+            <div class="file bg-white">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="first">
+                <img src="images/avi.png" alt="" />
+                <p>my-file.pdf</p>
+              </div>
+              <span>Elzezo</span>
+              <div class="info flex-between">
+                <div>
+                  <span>20/06/2020</span>
                 </div>
-
-                <div class="file-state bg-white ">
-
-                    <h2>Files Statistics</h2>
-                        <div class="box flex-between">
-                            <div>
-                                <i class="fa-regular fa-file-pdf fa-lg blue center-flex c-blue icon"></i> 
-                            </div>
-                            <div class="text">
-                                <p>PDF Files</p>
-                                <span>130</span>
-                            </div>
-                        
-                        <span class="d-block">6.5GB</span>
-                    </div>
-                        <div class="box flex-between">
-                            <div>
-                                <i class="fa-regular fa-images fa-lg green center-flex c-green icon"></i> 
-                            </div>
-                            <div class="text">
-                                <p>PDF Files</p>
-                                <span>130</span>
-                            </div>
-                        
-                        <span class="d-block">6.5GB</span>
-                    </div>
-                        <div class="box flex-between">
-                            <div>
-                                <i class="fa-regular fa-file-word fa-lg red center-flex c-red icon"></i> 
-                            </div>
-                            <div class="text">
-                                <p>PDF Files</p>
-                                <span>130</span>
-                            </div>
-                        
-                        <span class="d-block">6.5GB</span>
-                    </div>
-                        <div class="box flex-between">
-                            <div>
-                                <i class="fa-solid fa-file-csv fa-lg orange center-flex c-orange icon"></i> 
-                            </div>
-                            <div class="text">
-                                <p>PDF Files</p>
-                                <span>130</span>
-                            </div>
-                        
-                        <span class="d-block">6.5GB</span>
-                    </div>
-
-                     <a href="#" class="d-block" > <i class="fa-solid fa-angles-up mr-10 "></i> Upload </a> </div>
+                <div>
+                  <span>5.5MB</span>
+                </div>
+              </div>
             </div>
-            <!-- end content -->
+            <div class="file bg-white">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="first">
+                <img src="images/eps.png" alt="" />
+                <p>my-file.pdf</p>
+              </div>
+              <span>Elzezo</span>
+              <div class="info flex-between">
+                <div>
+                  <span>20/06/2020</span>
+                </div>
+                <div>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+            </div>
+            <div class="file bg-white">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="first">
+                <img src="images/psd.png" alt="" />
+                <p>my-file.pdf</p>
+              </div>
+              <span>Elzezo</span>
+              <div class="info flex-between">
+                <div>
+                  <span>20/06/2020</span>
+                </div>
+                <div>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+            </div>
+            <div class="file bg-white">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="first">
+                <img src="images/dll.png" alt="" />
+                <p>my-file.pdf</p>
+              </div>
+              <span>Elzezo</span>
+              <div class="info flex-between">
+                <div>
+                  <span>20/06/2020</span>
+                </div>
+                <div>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+            </div>
+            <div class="file bg-white">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="first">
+                <img src="images/pdf.png" alt="" />
+                <p>my-file.pdf</p>
+              </div>
+              <span>Elzezo</span>
+              <div class="info flex-between">
+                <div>
+                  <span>20/06/2020</span>
+                </div>
+                <div>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+            </div>
+            <div class="file bg-white">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="first">
+                <img src="images/avi.png" alt="" />
+                <p>my-file.pdf</p>
+              </div>
+              <span>Elzezo</span>
+              <div class="info flex-between">
+                <div>
+                  <span>20/06/2020</span>
+                </div>
+                <div>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+            </div>
+            <div class="file bg-white">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="first">
+                <img src="images/eps.png" alt="" />
+                <p>my-file.pdf</p>
+              </div>
+              <span>Elzezo</span>
+              <div class="info flex-between">
+                <div>
+                  <span>20/06/2020</span>
+                </div>
+                <div>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+            </div>
+            <div class="file bg-white">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="first">
+                <img src="images/psd.png" alt="" />
+                <p>my-file.pdf</p>
+              </div>
+              <span>Elzezo</span>
+              <div class="info flex-between">
+                <div>
+                  <span>20/06/2020</span>
+                </div>
+                <div>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+            </div>
+            <div class="file bg-white">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="first">
+                <img src="images/dll.png" alt="" />
+                <p>my-file.pdf</p>
+              </div>
+              <span>Elzezo</span>
+              <div class="info flex-between">
+                <div>
+                  <span>20/06/2020</span>
+                </div>
+                <div>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+            </div>
+            <div class="file bg-white">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="first">
+                <img src="images/pdf.png" alt="" />
+                <p>my-file.pdf</p>
+              </div>
+              <span>Elzezo</span>
+              <div class="info flex-between">
+                <div>
+                  <span>20/06/2020</span>
+                </div>
+                <div>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+            </div>
+            <div class="file bg-white">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="first">
+                <img src="images/avi.png" alt="" />
+                <p>my-file.pdf</p>
+              </div>
+              <span>Elzezo</span>
+              <div class="info flex-between">
+                <div>
+                  <span>20/06/2020</span>
+                </div>
+                <div>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+            </div>
+            <div class="file bg-white">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="first">
+                <img src="images/eps.png" alt="" />
+                <p>my-file.pdf</p>
+              </div>
+              <span>Elzezo</span>
+              <div class="info flex-between">
+                <div>
+                  <span>20/06/2020</span>
+                </div>
+                <div>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+            </div>
+            <div class="file bg-white">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="first">
+                <img src="images/psd.png" alt="" />
+                <p>my-file.pdf</p>
+              </div>
+              <span>Elzezo</span>
+              <div class="info flex-between">
+                <div>
+                  <span>20/06/2020</span>
+                </div>
+                <div>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+            </div>
+            <div class="file bg-white">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="first">
+                <img src="images/dll.png" alt="" />
+                <p>my-file.pdf</p>
+              </div>
+              <span>Elzezo</span>
+              <div class="info flex-between">
+                <div>
+                  <span>20/06/2020</span>
+                </div>
+                <div>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+            </div>
+            <div class="file bg-white">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="first">
+                <img src="images/pdf.png" alt="" />
+                <p>my-file.pdf</p>
+              </div>
+              <span>Elzezo</span>
+              <div class="info flex-between">
+                <div>
+                  <span>20/06/2020</span>
+                </div>
+                <div>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+            </div>
+            <div class="file bg-white">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="first">
+                <img src="images/pdf.png" alt="" />
+                <p>my-file.pdf</p>
+              </div>
+              <span>Elzezo</span>
+              <div class="info flex-between">
+                <div>
+                  <span>20/06/2020</span>
+                </div>
+                <div>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+            </div>
+            <div class="file bg-white">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="first">
+                <img src="images/avi.png" alt="" />
+                <p>my-file.pdf</p>
+              </div>
+              <span>Elzezo</span>
+              <div class="info flex-between">
+                <div>
+                  <span>20/06/2020</span>
+                </div>
+                <div>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="file-state bg-white">
+            <h2>Files Statistics</h2>
+            <div class="box flex-between">
+              <div>
+                <i
+                  class="fa-regular fa-file-pdf fa-lg blue center-flex c-blue icon"
+                ></i>
+              </div>
+              <div class="text">
+                <p>PDF Files</p>
+                <span>130</span>
+              </div>
+
+              <span class="d-block">6.5GB</span>
+            </div>
+            <div class="box flex-between">
+              <div>
+                <i
+                  class="fa-regular fa-images fa-lg green center-flex c-green icon"
+                ></i>
+              </div>
+              <div class="text">
+                <p>PDF Files</p>
+                <span>130</span>
+              </div>
+
+              <span class="d-block">6.5GB</span>
+            </div>
+            <div class="box flex-between">
+              <div>
+                <i
+                  class="fa-regular fa-file-word fa-lg red center-flex c-red icon"
+                ></i>
+              </div>
+              <div class="text">
+                <p>PDF Files</p>
+                <span>130</span>
+              </div>
+
+              <span class="d-block">6.5GB</span>
+            </div>
+            <div class="box flex-between">
+              <div>
+                <i
+                  class="fa-solid fa-file-csv fa-lg orange center-flex c-orange icon"
+                ></i>
+              </div>
+              <div class="text">
+                <p>PDF Files</p>
+                <span>130</span>
+              </div>
+
+              <span class="d-block">6.5GB</span>
+            </div>
+
+            <a href="#" class="d-block">
+              <i class="fa-solid fa-angles-up mr-10"></i> Upload
+            </a>
+          </div>
         </div>
+        <!-- end content -->
+      </div>
     </div>
-    </div>
-</body>
-
+  </body>
 </html>
